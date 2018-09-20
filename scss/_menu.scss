@@ -10,7 +10,7 @@
 		width: 28px;
 		height: 3px;
 		margin: 0 0 5px 0;
-		background: #fff;
+		background: set-text-color($primary-color);
 		@include easeOut;
 	}
 
@@ -37,7 +37,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	opacity: 0.9;
+	// opacity: 0.9;
 	visibility: hidden;
 
 	&.show {
@@ -57,7 +57,7 @@
 	&-nav {
 		margin: 0;
 		padding: 0;
-		background: darken($primary-color, 5);
+		background: transparentize(darken($primary-color, 5), 0.2);
 		list-style: none;
 		transform: translate3d(0, -100%, 0);
 		@include easeOut;
@@ -68,7 +68,7 @@
 	}
 
 	&-branding {
-		background: $primary-color;
+		background: transparentize($primary-color, 0.2);
 		transform: translate3d(0, 100%, 0);
 		@include easeOut;
 
@@ -105,7 +105,7 @@
 			font-size: 30px;
 			padding: 1rem 0;
 			font-weight: 300;
-			color: #fff;
+			color: set-text-color($primary-color);
 			text-decoration: none;
 			@include easeOut;
 
