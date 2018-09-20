@@ -6,6 +6,13 @@
 	cursor: pointer;
 	@include easeOut;
 
+	&:hover {
+		.btn-line {
+			background: $secondary-color;
+		}
+		
+	}
+
 	.btn-line {
 		width: 28px;
 		height: 3px;
@@ -104,7 +111,7 @@
 			text-transform: uppercase;
 			font-size: 30px;
 			padding: 1rem 0;
-			font-weight: 300;
+			font-weight: 400;
 			color: set-text-color($primary-color);
 			text-decoration: none;
 			@include easeOut;
