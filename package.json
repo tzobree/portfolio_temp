@@ -1,0 +1,23 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzobree/portfolio_temp.git"
+  },
+  "author": "Tzobree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzobree/portfolio_temp/issues"
+  },
+  "homepage": "https://tzobree.github.io/portfolio_temp"
+}
